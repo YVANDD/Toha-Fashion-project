@@ -10,8 +10,8 @@ function Header() {
   return (
     <div className=' '>
       <div className="w-full h-[80vh] relative"> 
-        <div className=" w-full h-[80vh] object-cover hover:bg-top  bg-center   bg-no-repeat bg-cover bg-[url('/images/photo-front.png')]   transition-all ">
-          <div className=" w-full h-12 hover:bg-white flex items-center justify-between px-6 cursor-pointer hover:text-black text-white      z-[999]">
+        <div className=" w-full h-[80vh] object-cover hover:bg-top  bg-center   bg-no-repeat bg-cover bg-[url('/images/photo-front.png')]   transition-all">
+          <div className=" w-full h-12 hover:bg-white flex items-center justify-between px-6 cursor-pointer hover:text-black text-white z-[999]">
            <div className='flex gap-6 ml-20  text-sm font-[500] max-lg:hidden '>
              <a href="#" className='relative'  >
                <span className='before:content-[""]  before:h-[2px]  before:bg-black before:absolute before:left-0 before:right-0 before:bottom-[-13px] before:w-9  transition-all origin-top-right before:opacity-0 hover:before:opacity-100'>Shop</span>
@@ -41,13 +41,14 @@ function Header() {
           </div>
              
          <div className='w-full h-[80.3vh] bg-black bg-opacity-[0.4] mt-[-50px]'>
-          <Fade top>
+          
             <div className=' h-[80vh] flex justify-center items-center '>
+             <Fade right> 
             <h3 className='font-bold text-white  pt-6 cursor-pointer  tracking-widest relative hover:scale-[1.2] hover:text-yellow-400'>Discover Now 
             <span className='w-[8rem] h-[1px] bg-white absolute left-0 bottom-[-4px] '></span>
             </h3>
+            </Fade>
             </div>
-          </Fade>
          </div>
         </div>
       </div>
