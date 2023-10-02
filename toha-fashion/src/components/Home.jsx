@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-awesome-reveal'
+import Imgslider from './Imgslider'
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
             </div>
             </Fade>
           <Fade left>
-           <div className='md:flex mb-10'>
+           <div className='md:flex '>
               <div className='md:w-[50%] w-[100%] h-[20%] relative'>
                 <img 
                 className='w-full h-full object-cover transform-none'
@@ -40,6 +41,7 @@ function Home() {
               </div>
            </div>
         </Fade>
+        <Imgslider />
     </div>
   )
 }
