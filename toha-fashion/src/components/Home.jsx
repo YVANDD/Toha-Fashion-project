@@ -1,6 +1,8 @@
 import React from 'react';
 import Fade from 'react-awesome-reveal'
 import Imgslider from './Imgslider'
+import Footer from './Footer';
+
 
 function Home() {
   return (
@@ -41,7 +43,11 @@ function Home() {
               </div>
            </div>
         </Fade>
+        <div className=" bg-gray-200 p-3 mt-3 w-[60%] rounded-sm mx-auto flex justify-center ">
+          <h3 className='text-xl font-[500] opacity-80'>Best Female and Male clothers </h3>
+        </div>
         <Imgslider />
+        <Footer />
     </div>
   )
 }
